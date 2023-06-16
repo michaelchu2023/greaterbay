@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Network</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <style type="text/css">
+        #mynetwork {
+            width: 1200px;
+            height: 700px;
+            border: 1px solid lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mynetwork"></div>
+    <script type="text/javascript">
+        // create an array with nodes
+        var nodes = new vis.DataSet([{"id":1,"label":"company","value":0.005190282025144411,"group":0},{"id":2,"label":"hong kong","value":0.058598692620099355,"group":0},{"id":3,"label":"sales","value":0,"group":1},{"id":4,"label":"wall","value":0,"group":2},{"id":5,"label":"street","value":0,"group":2},{"id":6,"label":"country","value":0,"group":3},{"id":7,"label":"china","value":0.7522559584486189,"group":1},{"id":8,"label":"world","value":0.0030839926864391696,"group":0},{"id":9,"label":"beijing","value":0.00022814426484151257,"group":0},{"id":10,"label":"xi","value":0.00011326311020500623,"group":1},{"id":11,"label":"jinping","value":0,"group":1},{"id":12,"label":"policy","value":0,"group":1},{"id":13,"label":"stock","value":0.017499150526673463,"group":0},{"id":14,"label":"market","value":0.0013365047004190735,"group":0},{"id":15,"label":"american","value":0,"group":3},{"id":16,"label":"journal","value":0,"group":2},{"id":17,"label":"percent","value":0,"group":1},{"id":18,"label":"companies","value":0.019757940553047585,"group":0},{"id":19,"label":"u.s.","value":0.052638221445560886,"group":3},{"id":20,"label":"growth","value":0,"group":1},{"id":21,"label":"new","value":0.018588498940180897,"group":0},{"id":22,"label":"president","value":0.0005379997734737795,"group":1},{"id":23,"label":"people","value":0.034658511722731905,"group":0},{"id":24,"label":"chinese","value":0.06265351196543856,"group":3},{"id":25,"label":"trump","value":0.00026899988673688977,"group":1},{"id":26,"label":"economic","value":0.0003397893306150187,"group":1},{"id":27,"label":"group","value":0.00028315777551251556,"group":3},{"id":28,"label":"chief","value":0.017499150526673463,"group":1},{"id":29,"label":"party","value":0.00016989466530750936,"group":3},{"id":30,"label":"security","value":0.00016989466530750936,"group":3}]);
+
+        var edges = new vis.DataSet([{"from":1,"to":2,"value":711},{"from":1,"to":3,"value":517},{"from":1,"to":8,"value":703},{"from":1,"to":14,"value":766},{"from":1,"to":21,"value":772},{"from":1,"to":27,"value":665},{"from":1,"to":18,"value":741},{"from":1,"to":24,"value":1133},{"from":1,"to":7,"value":1810},{"from":1,"to":23,"value":558},{"from":1,"to":19,"value":1314},{"from":2,"to":21,"value":904},{"from":2,"to":18,"value":732},{"from":2,"to":13,"value":544},{"from":2,"to":24,"value":1474},{"from":2,"to":19,"value":1158},{"from":2,"to":9,"value":1200},{"from":2,"to":7,"value":2593},{"from":2,"to":23,"value":675},{"from":2,"to":14,"value":490},{"from":2,"to":8,"value":532},{"from":3,"to":7,"value":768},{"from":4,"to":5,"value":778},{"from":4,"to":16,"value":559},{"from":5,"to":16,"value":561},{"from":6,"to":7,"value":1833},{"from":6,"to":24,"value":599},{"from":6,"to":19,"value":641},{"from":7,"to":12,"value":659},{"from":7,"to":15,"value":736},{"from":7,"to":17,"value":1022},{"from":7,"to":20,"value":938},{"from":7,"to":11,"value":518},{"from":7,"to":18,"value":2210},{"from":7,"to":10,"value":1102},{"from":7,"to":25,"value":1008},{"from":7,"to":28,"value":666},{"from":7,"to":22,"value":1305},{"from":7,"to":19,"value":4758},{"from":7,"to":24,"value":4727},{"from":7,"to":8,"value":2322},{"from":7,"to":9,"value":2578},{"from":7,"to":29,"value":640},{"from":7,"to":27,"value":1167},{"from":7,"to":13,"value":603},{"from":7,"to":26,"value":1410},{"from":7,"to":30,"value":715},{"from":7,"to":14,"value":1565},{"from":7,"to":23,"value":1512},{"from":7,"to":21,"value":1842},{"from":8,"to":9,"value":476},{"from":8,"to":21,"value":555},{"from":8,"to":24,"value":805},{"from":8,"to":14,"value":630},{"from":8,"to":18,"value":551},{"from":8,"to":19,"value":1224},{"from":9,"to":18,"value":502},{"from":9,"to":24,"value":1191},{"from":9,"to":19,"value":939},{"from":9,"to":21,"value":474},{"from":10,"to":11,"value":609},{"from":10,"to":22,"value":664},{"from":10,"to":24,"value":568},{"from":11,"to":22,"value":472},{"from":13,"to":14,"value":626},{"from":13,"to":24,"value":481},{"from":14,"to":21,"value":559},{"from":14,"to":19,"value":704},{"from":14,"to":18,"value":654},{"from":14,"to":24,"value":1197},{"from":15,"to":24,"value":502},{"from":15,"to":19,"value":657},{"from":18,"to":19,"value":1623},{"from":18,"to":27,"value":477},{"from":18,"to":21,"value":723},{"from":18,"to":24,"value":2527},{"from":19,"to":21,"value":1022},{"from":19,"to":23,"value":636},{"from":19,"to":26,"value":596},{"from":19,"to":25,"value":945},{"from":19,"to":24,"value":2695},{"from":19,"to":22,"value":719},{"from":19,"to":27,"value":542},{"from":19,"to":30,"value":542},{"from":20,"to":26,"value":473},{"from":21,"to":23,"value":618},{"from":21,"to":24,"value":1004},{"from":22,"to":25,"value":849},{"from":22,"to":24,"value":575},{"from":23,"to":24,"value":785},{"from":24,"to":26,"value":469},{"from":24,"to":27,"value":846},{"from":24,"to":29,"value":527},{"from":24,"to":25,"value":672}]);
+
+
+        // create a network
+        var container = document.getElementById('mynetwork');
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+
+        // scale the nodes
+        var options = {
+            nodes: {
+                shape: 'dot',
+                scaling: {
+                    customScalingFunction: function (min, max, total, value) {
+                        return value / total;
+                    },
+                    min: 5,
+                    max: 80
+                }
+            }
+        };
+        var network = new vis.Network(container, data, options);
+    </script>
+</body>
+
+</html>
