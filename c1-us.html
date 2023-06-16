@@ -38,9 +38,17 @@
                         return value / total;
                     },
                     min: 5,
-                    max: 80
+                    max: 50
                 }
-            }
+            },
+            edges: {
+            // width: 0.15,
+            // color: { inherit: "to" },
+                color: "#D4F1F4",
+            // smooth: {
+            //   type: "continuous",
+            // },
+          },
         };
         var network = new vis.Network(container, data, options);
     </script>
