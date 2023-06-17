@@ -1,0 +1,567 @@
+[
+    {
+        "from": 1,
+        "to": 2,
+        "value": 655
+    },
+    {
+        "from": 1,
+        "to": 9,
+        "value": 742
+    },
+    {
+        "from": 1,
+        "to": 12,
+        "value": 721
+    },
+    {
+        "from": 1,
+        "to": 13,
+        "value": 657
+    },
+    {
+        "from": 1,
+        "to": 11,
+        "value": 4501
+    },
+    {
+        "from": 1,
+        "to": 16,
+        "value": 732
+    },
+    {
+        "from": 1,
+        "to": 17,
+        "value": 1475
+    },
+    {
+        "from": 1,
+        "to": 21,
+        "value": 2737
+    },
+    {
+        "from": 1,
+        "to": 6,
+        "value": 1382
+    },
+    {
+        "from": 1,
+        "to": 20,
+        "value": 1290
+    },
+    {
+        "from": 1,
+        "to": 26,
+        "value": 3088
+    },
+    {
+        "from": 1,
+        "to": 25,
+        "value": 2424
+    },
+    {
+        "from": 1,
+        "to": 28,
+        "value": 1767
+    },
+    {
+        "from": 1,
+        "to": 18,
+        "value": 3088
+    },
+    {
+        "from": 1,
+        "to": 19,
+        "value": 981
+    },
+    {
+        "from": 1,
+        "to": 27,
+        "value": 1524
+    },
+    {
+        "from": 1,
+        "to": 10,
+        "value": 2904
+    },
+    {
+        "from": 1,
+        "to": 23,
+        "value": 876
+    },
+    {
+        "from": 1,
+        "to": 8,
+        "value": 4768
+    },
+    {
+        "from": 1,
+        "to": 3,
+        "value": 3288
+    },
+    {
+        "from": 1,
+        "to": 29,
+        "value": 1828
+    },
+    {
+        "from": 1,
+        "to": 7,
+        "value": 3073
+    },
+    {
+        "from": 1,
+        "to": 24,
+        "value": 628
+    },
+    {
+        "from": 1,
+        "to": 30,
+        "value": 3363
+    },
+    {
+        "from": 1,
+        "to": 22,
+        "value": 1166
+    },
+    {
+        "from": 1,
+        "to": 14,
+        "value": 1652
+    },
+    {
+        "from": 1,
+        "to": 15,
+        "value": 8375
+    },
+    {
+        "from": 1,
+        "to": 5,
+        "value": 5038
+    },
+    {
+        "from": 1,
+        "to": 4,
+        "value": 3690
+    },
+    {
+        "from": 3,
+        "to": 4,
+        "value": 1267
+    },
+    {
+        "from": 3,
+        "to": 5,
+        "value": 918
+    },
+    {
+        "from": 3,
+        "to": 8,
+        "value": 733
+    },
+    {
+        "from": 3,
+        "to": 27,
+        "value": 781
+    },
+    {
+        "from": 3,
+        "to": 15,
+        "value": 1022
+    },
+    {
+        "from": 3,
+        "to": 11,
+        "value": 768
+    },
+    {
+        "from": 3,
+        "to": 25,
+        "value": 729
+    },
+    {
+        "from": 3,
+        "to": 10,
+        "value": 679
+    },
+    {
+        "from": 3,
+        "to": 30,
+        "value": 825
+    },
+    {
+        "from": 3,
+        "to": 26,
+        "value": 745
+    },
+    {
+        "from": 3,
+        "to": 21,
+        "value": 645
+    },
+    {
+        "from": 4,
+        "to": 6,
+        "value": 861
+    },
+    {
+        "from": 4,
+        "to": 25,
+        "value": 1353
+    },
+    {
+        "from": 4,
+        "to": 11,
+        "value": 3713
+    },
+    {
+        "from": 4,
+        "to": 17,
+        "value": 921
+    },
+    {
+        "from": 4,
+        "to": 21,
+        "value": 655
+    },
+    {
+        "from": 4,
+        "to": 14,
+        "value": 685
+    },
+    {
+        "from": 4,
+        "to": 8,
+        "value": 1219
+    },
+    {
+        "from": 4,
+        "to": 20,
+        "value": 1083
+    },
+    {
+        "from": 4,
+        "to": 15,
+        "value": 1400
+    },
+    {
+        "from": 4,
+        "to": 28,
+        "value": 690
+    },
+    {
+        "from": 4,
+        "to": 19,
+        "value": 797
+    },
+    {
+        "from": 4,
+        "to": 5,
+        "value": 1103
+    },
+    {
+        "from": 4,
+        "to": 10,
+        "value": 973
+    },
+    {
+        "from": 4,
+        "to": 26,
+        "value": 750
+    },
+    {
+        "from": 4,
+        "to": 22,
+        "value": 652
+    },
+    {
+        "from": 5,
+        "to": 18,
+        "value": 918
+    },
+    {
+        "from": 5,
+        "to": 25,
+        "value": 995
+    },
+    {
+        "from": 5,
+        "to": 15,
+        "value": 1480
+    },
+    {
+        "from": 5,
+        "to": 8,
+        "value": 1297
+    },
+    {
+        "from": 5,
+        "to": 29,
+        "value": 771
+    },
+    {
+        "from": 5,
+        "to": 30,
+        "value": 1066
+    },
+    {
+        "from": 5,
+        "to": 10,
+        "value": 1987
+    },
+    {
+        "from": 5,
+        "to": 7,
+        "value": 1102
+    },
+    {
+        "from": 5,
+        "to": 11,
+        "value": 752
+    },
+    {
+        "from": 5,
+        "to": 21,
+        "value": 809
+    },
+    {
+        "from": 6,
+        "to": 8,
+        "value": 645
+    },
+    {
+        "from": 6,
+        "to": 15,
+        "value": 845
+    },
+    {
+        "from": 7,
+        "to": 8,
+        "value": 650
+    },
+    {
+        "from": 7,
+        "to": 15,
+        "value": 937
+    },
+    {
+        "from": 7,
+        "to": 11,
+        "value": 761
+    },
+    {
+        "from": 7,
+        "to": 25,
+        "value": 800
+    },
+    {
+        "from": 7,
+        "to": 29,
+        "value": 957
+    },
+    {
+        "from": 7,
+        "to": 27,
+        "value": 662
+    },
+    {
+        "from": 8,
+        "to": 19,
+        "value": 687
+    },
+    {
+        "from": 8,
+        "to": 10,
+        "value": 1568
+    },
+    {
+        "from": 8,
+        "to": 25,
+        "value": 1077
+    },
+    {
+        "from": 8,
+        "to": 11,
+        "value": 761
+    },
+    {
+        "from": 8,
+        "to": 14,
+        "value": 687
+    },
+    {
+        "from": 8,
+        "to": 29,
+        "value": 651
+    },
+    {
+        "from": 8,
+        "to": 15,
+        "value": 2536
+    },
+    {
+        "from": 8,
+        "to": 28,
+        "value": 763
+    },
+    {
+        "from": 10,
+        "to": 11,
+        "value": 730
+    },
+    {
+        "from": 10,
+        "to": 25,
+        "value": 1040
+    },
+    {
+        "from": 10,
+        "to": 30,
+        "value": 918
+    },
+    {
+        "from": 10,
+        "to": 15,
+        "value": 1394
+    },
+    {
+        "from": 10,
+        "to": 18,
+        "value": 760
+    },
+    {
+        "from": 10,
+        "to": 14,
+        "value": 781
+    },
+    {
+        "from": 11,
+        "to": 22,
+        "value": 901
+    },
+    {
+        "from": 11,
+        "to": 21,
+        "value": 632
+    },
+    {
+        "from": 11,
+        "to": 15,
+        "value": 718
+    },
+    {
+        "from": 11,
+        "to": 25,
+        "value": 1456
+    },
+    {
+        "from": 11,
+        "to": 26,
+        "value": 1287
+    },
+    {
+        "from": 11,
+        "to": 28,
+        "value": 697
+    },
+    {
+        "from": 11,
+        "to": 30,
+        "value": 636
+    },
+    {
+        "from": 14,
+        "to": 15,
+        "value": 940
+    },
+    {
+        "from": 14,
+        "to": 20,
+        "value": 667
+    },
+    {
+        "from": 15,
+        "to": 20,
+        "value": 828
+    },
+    {
+        "from": 15,
+        "to": 25,
+        "value": 998
+    },
+    {
+        "from": 15,
+        "to": 28,
+        "value": 959
+    },
+    {
+        "from": 15,
+        "to": 18,
+        "value": 1396
+    },
+    {
+        "from": 15,
+        "to": 27,
+        "value": 644
+    },
+    {
+        "from": 15,
+        "to": 17,
+        "value": 862
+    },
+    {
+        "from": 15,
+        "to": 21,
+        "value": 693
+    },
+    {
+        "from": 15,
+        "to": 29,
+        "value": 950
+    },
+    {
+        "from": 15,
+        "to": 19,
+        "value": 890
+    },
+    {
+        "from": 15,
+        "to": 30,
+        "value": 896
+    },
+    {
+        "from": 18,
+        "to": 21,
+        "value": 908
+    },
+    {
+        "from": 19,
+        "to": 23,
+        "value": 710
+    },
+    {
+        "from": 19,
+        "to": 28,
+        "value": 871
+    },
+    {
+        "from": 19,
+        "to": 25,
+        "value": 638
+    },
+    {
+        "from": 25,
+        "to": 28,
+        "value": 818
+    },
+    {
+        "from": 26,
+        "to": 27,
+        "value": 715
+    },
+    {
+        "from": 27,
+        "to": 30,
+        "value": 697
+    }
+]

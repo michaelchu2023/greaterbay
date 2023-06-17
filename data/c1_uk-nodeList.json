@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "label": "global",
+        "value": 0.0027594729998979364,
+        "group": 0
+    },
+    {
+        "id": 2,
+        "label": "financial",
+        "value": 0.022826441256690054,
+        "group": 3
+    },
+    {
+        "id": 3,
+        "label": "china",
+        "value": 0.3395275592298236,
+        "group": 2
+    },
+    {
+        "id": 4,
+        "label": "asia",
+        "value": 0.04016401080980337,
+        "group": 2
+    },
+    {
+        "id": 5,
+        "label": "chinese",
+        "value": 0.07535247034827691,
+        "group": 0
+    },
+    {
+        "id": 6,
+        "label": "market",
+        "value": 0.031133653722415257,
+        "group": 1
+    },
+    {
+        "id": 7,
+        "label": "us",
+        "value": 0.07963844752354676,
+        "group": 0
+    },
+    {
+        "id": 8,
+        "label": "index",
+        "value": 0.013872823042518323,
+        "group": 3
+    },
+    {
+        "id": 9,
+        "label": "companies",
+        "value": 0.002380138835268833,
+        "group": 1
+    },
+    {
+        "id": 10,
+        "label": "hong kong",
+        "value": 0.12011462455270115,
+        "group": 3
+    },
+    {
+        "id": 11,
+        "label": "chief",
+        "value": 0.010250675612710838,
+        "group": 1
+    },
+    {
+        "id": 12,
+        "label": "company",
+        "value": 0.009940492831183355,
+        "group": 1
+    },
+    {
+        "id": 13,
+        "label": "bank",
+        "value": 0.0025469157003962717,
+        "group": 3
+    },
+    {
+        "id": 14,
+        "label": "trade",
+        "value": 0.010297269592768615,
+        "group": 0
+    },
+    {
+        "id": 15,
+        "label": "markets",
+        "value": 0.002901325783629389,
+        "group": 3
+    },
+    {
+        "id": 16,
+        "label": "president",
+        "value": 0.009255931117826565,
+        "group": 0
+    },
+    {
+        "id": 17,
+        "label": "trump",
+        "value": 0.012063994982641902,
+        "group": 0
+    },
+    {
+        "id": 18,
+        "label": "economic",
+        "value": 0.010367059710084595,
+        "group": 3
+    },
+    {
+        "id": 19,
+        "label": "new",
+        "value": 0.020675745836495063,
+        "group": 1
+    },
+    {
+        "id": 20,
+        "label": "open",
+        "value": 0.02040816326530612,
+        "group": 2
+    },
+    {
+        "id": 21,
+        "label": "stock",
+        "value": 0.00199311296599527,
+        "group": 3
+    },
+    {
+        "id": 22,
+        "label": "times",
+        "value": 0.0020920697045941662,
+        "group": 3
+    },
+    {
+        "id": 23,
+        "label": "topix",
+        "value": 0.010250675612710838,
+        "group": 3
+    },
+    {
+        "id": 24,
+        "label": "world",
+        "value": 0.002894595542065489,
+        "group": 0
+    },
+    {
+        "id": 25,
+        "label": "xi",
+        "value": 0.003314385114776504,
+        "group": 2
+    },
+    {
+        "id": 26,
+        "label": "first",
+        "value": 0.010250675612710836,
+        "group": 2
+    },
+    {
+        "id": 27,
+        "label": "shanghai",
+        "value": 0.010250675612710836,
+        "group": 2
+    },
+    {
+        "id": 28,
+        "label": "policy",
+        "value": 0.010250675612710836,
+        "group": 2
+    },
+    {
+        "id": 29,
+        "label": "media",
+        "value": 0.010250675612710838,
+        "group": 0
+    },
+    {
+        "id": 30,
+        "label": "share",
+        "value": 0.010250675612710838,
+        "group": 1
+    }
+]
