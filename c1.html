@@ -17,6 +17,7 @@
     <style type="text/css">
         #mynetwork {
             margin-top: 10px;
+            margin-bottom: 30px;
             width: 1200px;
             height: 700px;
             border: 1px solid lightgray;
@@ -24,7 +25,7 @@
     </style>
 </head>
 
-<body>
+<body style="margin-left:20px">
     <select class="form-select" aria-label="Default select example" id="mySelect">
         <option selected>Select Graph</option>
         <option value="c1_us">c1_us</option>
@@ -35,6 +36,27 @@
     </select>
 
     <div id="mynetwork"></div>
+    <table class="table table-striped table-sm" style="width:500px;">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Node</th>
+                <th scope="col">Betweenness-Centrality</th>
+            </tr>
+        </thead>
+        <tbody id="nodeBody">
+        </tbody>
+    </table>
+    <table class="table table-striped table-sm"  style="width:700px;">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">from</th>
+                <th scope="col">to</th>
+                <th scope="col">frequency</th>
+            </tr>
+        </thead>
+        <tbody id="edgeBody">
+        </tbody>
+    </table>
     <script type="text/javascript">
         const selectElement = document.getElementById('mySelect');
         selectElement.addEventListener('change', function () {
@@ -44,28 +66,28 @@
         });
 
         function fetchData(graphType) {
-            fetch('./data/'+graphType+'-nodeList.json')
-            .then(response => response.json())
-            .then(data1 => {
-                console.log('Data from file 1:', data1);
-                return fetch('./data/'+graphType+'-edgeList.json')
-                    .then(response => response.json())
-                    .then(data2 => {
-                        console.log('Data from file 2:', data2);
-                        processData(data1, data2);
-                    })
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
+            fetch('./data/' + graphType + '-nodeList.json')
+                .then(response => response.json())
+                .then(data1 => {
+                    console.log('Data from file 1:', data1);
+                    return fetch('./data/' + graphType + '-edgeList.json')
+                        .then(response => response.json())
+                        .then(data2 => {
+                            console.log('Data from file 2:', data2);
+                            processData(data1, data2);
+                        })
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
         }
 
         function processData(nodeData, edgeData) {
             for (let node of nodeData) {
-               node.title = "bc: "+node.value;
+                node.title = "bc: " + node.value;
             }
             for (let edge of edgeData) {
-               edge.title = "freq: "+edge.value;
+                edge.title = "freq: " + edge.value;
             }
             var nodes = new vis.DataSet(nodeData);
             var edges = new vis.DataSet(edgeData);
@@ -98,8 +120,50 @@
             };
             var network = new vis.Network(container, data, options);
 
+            const nodeBody = document.getElementById('nodeBody');
+            nodeBody.innerHTML = '';
+            nodeData.sort((a, b) => b.value - a.value);
+
+            nodeData.forEach((item) => {
+                const row = document.createElement('tr');
+                const labelCell = document.createElement('td');
+                labelCell.textContent = item.label;
+                row.appendChild(labelCell);
+
+                const valueCell = document.createElement('td');
+                valueCell.textContent = item.value;
+                row.appendChild(valueCell);
+
+                nodeBody.appendChild(row);
+            });
+
+            const edgeBody = document.getElementById('edgeBody');
+            edgeBody.innerHTML = '';
+
+            edgeData.sort((a, b) => b.value - a.value);
+
+            edgeData.forEach((item) => {
+                const row = document.createElement('tr');
+                const fromCell = document.createElement('td');
+
+                fromCell.textContent = nodeData.filter((node) => node.id == item.from)[0].label;
+                row.appendChild(fromCell);
+
+                const toCell = document.createElement('td');
+                toCell.textContent = nodeData.filter((node) => node.id == item.to)[0].label;
+                row.appendChild(toCell);
+
+                const valueCell = document.createElement('td');
+                valueCell.textContent = item.value;
+                row.appendChild(valueCell);
+
+                edgeBody.appendChild(row);
+            });
+
         }
+
     </script>
+
 </body>
 
 </html>
