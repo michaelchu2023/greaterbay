@@ -1,0 +1,447 @@
+[
+    {
+        "from": 1,
+        "to": 2,
+        "value": 36
+    },
+    {
+        "from": 1,
+        "to": 4,
+        "value": 39
+    },
+    {
+        "from": 1,
+        "to": 6,
+        "value": 76
+    },
+    {
+        "from": 1,
+        "to": 9,
+        "value": 56
+    },
+    {
+        "from": 1,
+        "to": 11,
+        "value": 52
+    },
+    {
+        "from": 1,
+        "to": 14,
+        "value": 35
+    },
+    {
+        "from": 1,
+        "to": 18,
+        "value": 72
+    },
+    {
+        "from": 1,
+        "to": 21,
+        "value": 44
+    },
+    {
+        "from": 1,
+        "to": 23,
+        "value": 74
+    },
+    {
+        "from": 1,
+        "to": 22,
+        "value": 73
+    },
+    {
+        "from": 1,
+        "to": 8,
+        "value": 85
+    },
+    {
+        "from": 1,
+        "to": 28,
+        "value": 108
+    },
+    {
+        "from": 1,
+        "to": 29,
+        "value": 64
+    },
+    {
+        "from": 1,
+        "to": 13,
+        "value": 221
+    },
+    {
+        "from": 1,
+        "to": 5,
+        "value": 144
+    },
+    {
+        "from": 1,
+        "to": 10,
+        "value": 80
+    },
+    {
+        "from": 1,
+        "to": 3,
+        "value": 78
+    },
+    {
+        "from": 1,
+        "to": 26,
+        "value": 95
+    },
+    {
+        "from": 1,
+        "to": 12,
+        "value": 213
+    },
+    {
+        "from": 1,
+        "to": 24,
+        "value": 117
+    },
+    {
+        "from": 1,
+        "to": 7,
+        "value": 133
+    },
+    {
+        "from": 1,
+        "to": 20,
+        "value": 94
+    },
+    {
+        "from": 1,
+        "to": 25,
+        "value": 101
+    },
+    {
+        "from": 1,
+        "to": 16,
+        "value": 49
+    },
+    {
+        "from": 1,
+        "to": 30,
+        "value": 49
+    },
+    {
+        "from": 1,
+        "to": 17,
+        "value": 206
+    },
+    {
+        "from": 1,
+        "to": 27,
+        "value": 33
+    },
+    {
+        "from": 1,
+        "to": 15,
+        "value": 93
+    },
+    {
+        "from": 1,
+        "to": 19,
+        "value": 39
+    },
+    {
+        "from": 2,
+        "to": 13,
+        "value": 44
+    },
+    {
+        "from": 2,
+        "to": 17,
+        "value": 38
+    },
+    {
+        "from": 3,
+        "to": 20,
+        "value": 39
+    },
+    {
+        "from": 3,
+        "to": 24,
+        "value": 44
+    },
+    {
+        "from": 3,
+        "to": 5,
+        "value": 37
+    },
+    {
+        "from": 4,
+        "to": 23,
+        "value": 51
+    },
+    {
+        "from": 4,
+        "to": 5,
+        "value": 31
+    },
+    {
+        "from": 5,
+        "to": 7,
+        "value": 43
+    },
+    {
+        "from": 5,
+        "to": 12,
+        "value": 56
+    },
+    {
+        "from": 5,
+        "to": 25,
+        "value": 58
+    },
+    {
+        "from": 5,
+        "to": 20,
+        "value": 47
+    },
+    {
+        "from": 5,
+        "to": 6,
+        "value": 30
+    },
+    {
+        "from": 5,
+        "to": 13,
+        "value": 54
+    },
+    {
+        "from": 5,
+        "to": 9,
+        "value": 34
+    },
+    {
+        "from": 5,
+        "to": 17,
+        "value": 35
+    },
+    {
+        "from": 5,
+        "to": 15,
+        "value": 38
+    },
+    {
+        "from": 5,
+        "to": 24,
+        "value": 41
+    },
+    {
+        "from": 5,
+        "to": 23,
+        "value": 32
+    },
+    {
+        "from": 6,
+        "to": 8,
+        "value": 154
+    },
+    {
+        "from": 6,
+        "to": 7,
+        "value": 36
+    },
+    {
+        "from": 6,
+        "to": 10,
+        "value": 149
+    },
+    {
+        "from": 7,
+        "to": 8,
+        "value": 39
+    },
+    {
+        "from": 7,
+        "to": 10,
+        "value": 37
+    },
+    {
+        "from": 7,
+        "to": 12,
+        "value": 46
+    },
+    {
+        "from": 7,
+        "to": 24,
+        "value": 35
+    },
+    {
+        "from": 7,
+        "to": 13,
+        "value": 30
+    },
+    {
+        "from": 7,
+        "to": 9,
+        "value": 50
+    },
+    {
+        "from": 7,
+        "to": 27,
+        "value": 42
+    },
+    {
+        "from": 7,
+        "to": 21,
+        "value": 34
+    },
+    {
+        "from": 8,
+        "to": 10,
+        "value": 141
+    },
+    {
+        "from": 8,
+        "to": 13,
+        "value": 30
+    },
+    {
+        "from": 9,
+        "to": 15,
+        "value": 31
+    },
+    {
+        "from": 11,
+        "to": 19,
+        "value": 39
+    },
+    {
+        "from": 11,
+        "to": 23,
+        "value": 33
+    },
+    {
+        "from": 11,
+        "to": 20,
+        "value": 31
+    },
+    {
+        "from": 12,
+        "to": 18,
+        "value": 48
+    },
+    {
+        "from": 12,
+        "to": 25,
+        "value": 38
+    },
+    {
+        "from": 12,
+        "to": 26,
+        "value": 50
+    },
+    {
+        "from": 12,
+        "to": 13,
+        "value": 64
+    },
+    {
+        "from": 12,
+        "to": 17,
+        "value": 45
+    },
+    {
+        "from": 12,
+        "to": 24,
+        "value": 50
+    },
+    {
+        "from": 13,
+        "to": 16,
+        "value": 49
+    },
+    {
+        "from": 13,
+        "to": 14,
+        "value": 33
+    },
+    {
+        "from": 13,
+        "to": 18,
+        "value": 48
+    },
+    {
+        "from": 13,
+        "to": 17,
+        "value": 208
+    },
+    {
+        "from": 13,
+        "to": 29,
+        "value": 73
+    },
+    {
+        "from": 13,
+        "to": 26,
+        "value": 59
+    },
+    {
+        "from": 13,
+        "to": 30,
+        "value": 33
+    },
+    {
+        "from": 13,
+        "to": 15,
+        "value": 40
+    },
+    {
+        "from": 14,
+        "to": 21,
+        "value": 35
+    },
+    {
+        "from": 16,
+        "to": 20,
+        "value": 35
+    },
+    {
+        "from": 16,
+        "to": 17,
+        "value": 35
+    },
+    {
+        "from": 17,
+        "to": 29,
+        "value": 99
+    },
+    {
+        "from": 17,
+        "to": 26,
+        "value": 67
+    },
+    {
+        "from": 17,
+        "to": 30,
+        "value": 33
+    },
+    {
+        "from": 19,
+        "to": 20,
+        "value": 33
+    },
+    {
+        "from": 20,
+        "to": 30,
+        "value": 35
+    },
+    {
+        "from": 22,
+        "to": 27,
+        "value": 76
+    },
+    {
+        "from": 26,
+        "to": 29,
+        "value": 72
+    },
+    {
+        "from": 27,
+        "to": 28,
+        "value": 40
+    }
+]

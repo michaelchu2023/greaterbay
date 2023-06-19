@@ -18,7 +18,7 @@
         #mynetwork {
             margin-top: 10px;
             margin-bottom: 30px;
-            width: 1200px;
+            width: 80%;
             height: 700px;
             border: 1px solid lightgray;
         }
@@ -27,15 +27,22 @@
 
 <body style="margin-left:20px">
     <select class="form-select" aria-label="Default select example" id="mySelect">
-        <option selected>Select Graph</option>
+        <option selected> -- Select Graph --</option>
         <option value="c1_us">c1_us</option>
         <option value="c1_uk">c1_uk</option>
         <option value="c1_en">c1_en</option>
         <option value="c1_china">c1_china</option>
         <option value="c2_hk">c2_hk</option>
+        <option value="c3_en">c3_en</option>
+        <option value="c3_en_2012">c3_en_2012</option>
+        <option value="c3_china">c3_china</option>
+        <option value="c3_china_2012">c3_china_2012</option>
+        <option value="c3_hk">c3_hk</option>
+        <option value="c3_hk_2012">c3_hk_2012</option>
     </select>
 
     <div id="mynetwork"></div>
+
     <table class="table table-striped table-sm" style="width:500px;">
         <thead class="thead-dark">
             <tr>
@@ -46,7 +53,7 @@
         <tbody id="nodeBody">
         </tbody>
     </table>
-    <table class="table table-striped table-sm"  style="width:700px;">
+    <table class="table table-striped table-sm" style="width:500px;">
         <thead class="thead-dark">
             <tr>
                 <th scope="col">from</th>
@@ -57,6 +64,7 @@
         <tbody id="edgeBody">
         </tbody>
     </table>
+
     <script type="text/javascript">
         const selectElement = document.getElementById('mySelect');
         selectElement.addEventListener('change', function () {
@@ -83,6 +91,9 @@
         }
 
         function processData(nodeData, edgeData) {
+            // render network graph
+            var defaultEdgeColor = "#D4F1F4";
+
             for (let node of nodeData) {
                 node.title = "bc: " + node.value;
             }
@@ -112,13 +123,40 @@
                 edges: {
                     // width: 0.15,
                     // color: { inherit: "to" },
-                    color: "#D4F1F4",
+                    color: defaultEdgeColor,
                     // smooth: {
                     //   type: "continuous",
                     // },
                 },
             };
             var network = new vis.Network(container, data, options);
+            var lastNode = -1;
+
+            network.on("click", function (event) {
+                console.log("isNodeSelected: " + network.getSelectedNodes());
+                var nodeId = event.nodes[0]; // Assuming single node selection
+
+                // Get all edges connected to the clicked node
+                var connectedEdges = network.getConnectedEdges(nodeId);
+                var isNodeSelected = (typeof nodeId == 'number') && (nodeId != lastNode);
+
+                if (!isNodeSelected) {
+                    // Node is already selected, resume the original color of all edges
+                    var allEdges = network.body.data.edges.getIds();
+                    allEdges.forEach(function (edgeId) {
+                        // var originalColor = originalEdgeColors[edgeId];
+                        network.body.data.edges.update({ id: edgeId, color: defaultEdgeColor });
+                    });
+                    lastNode = -1;
+                } else {
+                    connectedEdges.forEach(function (edgeId) {
+                        network.body.data.edges.update({ id: edgeId, color: "#0E86D4" });
+                    });
+                    lastNode = nodeId;
+                } 
+            });
+
+            // compile the data table
 
             const nodeBody = document.getElementById('nodeBody');
             nodeBody.innerHTML = '';
@@ -161,6 +199,7 @@
             });
 
         }
+
 
     </script>
 

@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "label": "china",
+        "value": 0.8365048957002981,
+        "group": 0
+    },
+    {
+        "id": 2,
+        "label": "social",
+        "value": 0.0,
+        "group": 1
+    },
+    {
+        "id": 3,
+        "label": "policy",
+        "value": 0.00044699872286079183,
+        "group": 3
+    },
+    {
+        "id": 4,
+        "label": "system",
+        "value": 6.385696040868454e-05,
+        "group": 3
+    },
+    {
+        "id": 5,
+        "label": "chinese",
+        "value": 0.009737730341178617,
+        "group": 3
+    },
+    {
+        "id": 6,
+        "label": "river",
+        "value": 0.004336571793468335,
+        "group": 2
+    },
+    {
+        "id": 7,
+        "label": "hong kong",
+        "value": 0.031477832512315264,
+        "group": 2
+    },
+    {
+        "id": 8,
+        "label": "delta",
+        "value": 0.0053455497780210345,
+        "group": 2
+    },
+    {
+        "id": 9,
+        "label": "city",
+        "value": 7.183908045977011e-05,
+        "group": 0
+    },
+    {
+        "id": 10,
+        "label": "pearl",
+        "value": 0.0038355987350240125,
+        "group": 2
+    },
+    {
+        "id": 11,
+        "label": "school",
+        "value": 0.0002075351213282248,
+        "group": 3
+    },
+    {
+        "id": 12,
+        "label": "percent",
+        "value": 0.03272281517971173,
+        "group": 1
+    },
+    {
+        "id": 13,
+        "label": "workers",
+        "value": 0.053077069269598015,
+        "group": 1
+    },
+    {
+        "id": 14,
+        "label": "province",
+        "value": 0.0001436781609195402,
+        "group": 0
+    },
+    {
+        "id": 15,
+        "label": "new",
+        "value": 9.977650063856961e-05,
+        "group": 0
+    },
+    {
+        "id": 16,
+        "label": "migrant",
+        "value": 0.0005076628352490422,
+        "group": 1
+    },
+    {
+        "id": 17,
+        "label": "labor",
+        "value": 0.08201818402967828,
+        "group": 1
+    },
+    {
+        "id": 18,
+        "label": "cambodia",
+        "value": 0.0006736909323116219,
+        "group": 1
+    },
+    {
+        "id": 19,
+        "label": "students",
+        "value": 0.026883780332056195,
+        "group": 3
+    },
+    {
+        "id": 20,
+        "label": "children",
+        "value": 0.015062260536398468,
+        "group": 3
+    },
+    {
+        "id": 21,
+        "label": "guangdong",
+        "value": 9.578544061302681e-05,
+        "group": 0
+    },
+    {
+        "id": 22,
+        "label": "bank",
+        "value": 0.013409961685823755,
+        "group": 0
+    },
+    {
+        "id": 23,
+        "label": "hukou",
+        "value": 0.00023946360153256704,
+        "group": 3
+    },
+    {
+        "id": 24,
+        "label": "people",
+        "value": 0.00019157088122605365,
+        "group": 3
+    },
+    {
+        "id": 25,
+        "label": "beijing",
+        "value": 0.00019157088122605365,
+        "group": 1
+    },
+    {
+        "id": 26,
+        "label": "companies",
+        "value": 0.002567581949765858,
+        "group": 1
+    },
+    {
+        "id": 27,
+        "label": "hsbc",
+        "value": 0.014128352490421455,
+        "group": 0
+    },
+    {
+        "id": 28,
+        "label": "growth",
+        "value": 9.578544061302682e-05,
+        "group": 0
+    },
+    {
+        "id": 29,
+        "label": "nokia",
+        "value": 0.020718922945934443,
+        "group": 1
+    },
+    {
+        "id": 30,
+        "label": "worker",
+        "value": 0.0005076628352490422,
+        "group": 1
+    }
+]

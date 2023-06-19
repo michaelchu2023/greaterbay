@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "label": "chinese",
+        "value": 0.01722663446696211,
+        "group": 0
+    },
+    {
+        "id": 2,
+        "label": "china",
+        "value": 0.6114559992696976,
+        "group": 1
+    },
+    {
+        "id": 3,
+        "label": "hsbc",
+        "value": 0.11390521004498004,
+        "group": 2
+    },
+    {
+        "id": 4,
+        "label": "quarter",
+        "value": 0.012635064482398048,
+        "group": 2
+    },
+    {
+        "id": 5,
+        "label": "pearl",
+        "value": 0.001185081910073196,
+        "group": 3
+    },
+    {
+        "id": 6,
+        "label": "world",
+        "value": 0.028099843980812958,
+        "group": 0
+    },
+    {
+        "id": 7,
+        "label": "hong kong",
+        "value": 0.3484360736277781,
+        "group": 0
+    },
+    {
+        "id": 8,
+        "label": "technology",
+        "value": 0.0003952347756809242,
+        "group": 0
+    },
+    {
+        "id": 9,
+        "label": "time",
+        "value": 0.0012199372603694668,
+        "group": 0
+    },
+    {
+        "id": 10,
+        "label": "shenzhen",
+        "value": 0.022943534332520044,
+        "group": 0
+    },
+    {
+        "id": 11,
+        "label": "river",
+        "value": 0.0021394545967567936,
+        "group": 3
+    },
+    {
+        "id": 12,
+        "label": "tucker",
+        "value": 0.012635064482398048,
+        "group": 2
+    },
+    {
+        "id": 13,
+        "label": "local",
+        "value": 0.00082345765074939,
+        "group": 0
+    },
+    {
+        "id": 14,
+        "label": "government",
+        "value": 0.0012039618914836748,
+        "group": 0
+    },
+    {
+        "id": 15,
+        "label": "company",
+        "value": 0.04949459742070408,
+        "group": 0
+    },
+    {
+        "id": 16,
+        "label": "growth",
+        "value": 0.001019518996165911,
+        "group": 3
+    },
+    {
+        "id": 17,
+        "label": "equity",
+        "value": 0.012635064482398048,
+        "group": 2
+    },
+    {
+        "id": 18,
+        "label": "city",
+        "value": 0.008669023552258124,
+        "group": 0
+    },
+    {
+        "id": 19,
+        "label": "new",
+        "value": 0.012635064482398048,
+        "group": 2
+    },
+    {
+        "id": 20,
+        "label": "bank",
+        "value": 0.06965634284386461,
+        "group": 2
+    },
+    {
+        "id": 21,
+        "label": "delta",
+        "value": 0.001185081910073196,
+        "group": 3
+    },
+    {
+        "id": 22,
+        "label": "county",
+        "value": 0.02518299058905542,
+        "group": 0
+    },
+    {
+        "id": 23,
+        "label": "plant",
+        "value": 0.012635064482398048,
+        "group": 1
+    },
+    {
+        "id": 24,
+        "label": "banks",
+        "value": 0.008655745323573834,
+        "group": 1
+    },
+    {
+        "id": 25,
+        "label": "green",
+        "value": 0.004690949227373068,
+        "group": 1
+    },
+    {
+        "id": 26,
+        "label": "gulliver",
+        "value": 0.012635064482398048,
+        "group": 2
+    },
+    {
+        "id": 27,
+        "label": "workers",
+        "value": 0.012635064482398048,
+        "group": 1
+    },
+    {
+        "id": 28,
+        "label": "flint",
+        "value": 0.012635064482398048,
+        "group": 2
+    },
+    {
+        "id": 29,
+        "label": "interest",
+        "value": 0.012635064482398048,
+        "group": 2
+    },
+    {
+        "id": 30,
+        "label": "power",
+        "value": 0.03738236319275009,
+        "group": 1
+    }
+]
